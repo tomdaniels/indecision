@@ -1,7 +1,7 @@
 .header__wrap {
   background: $off-black;
   color: $solid-white;
-  margin-bottom: $size-xl;
+  margin-bottom: $size-med;
   padding: $size-med 0;
 }
 
@@ -15,4 +15,10 @@
   font-size: $size-med;
   font-weight: 500;
   margin: 0;
+}
+
+@media (min-width: $breakpoint) {
+  .header__wrap {
+    margin-bottom: $size-xl;
+  }
 }
