@@ -1,0 +1,15 @@
+.action__big-button {
+  background: $purple;
+  border: none;
+  border-bottom: .6rem solid darken($purple, 10%);
+  color: $solid-white;
+  font-weight: bold;
+  font-size: $size-lar;
+  margin-bottom: $size-xl;
+  padding: 2.4rem;
+  width: 100%;
+}
+
+.action__big-button:disabled {
+  opacity: .5;
+}
