@@ -1,0 +1,11 @@
+.widget-header {
+  background: $blue;
+  color: $off-white;
+  padding: $size-med;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget-title {
+  margin: 0;
+}
