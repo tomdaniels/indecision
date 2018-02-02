@@ -9,3 +9,16 @@
 .widget-header__title {
   margin: 0;
 }
+
+.widget {
+  background: $light-blue;
+  margin-bottom: $size-xl;
+}
+
+.widget__message {
+  color: $off-white;
+  margin: 0;
+  padding: $size-lar;
+  text-align: center;
+  border-bottom: 1px solid lighten($light-blue, 10%);
+}
