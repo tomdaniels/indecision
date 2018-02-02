@@ -5,7 +5,7 @@
   color: $solid-white;
   font-weight: bold;
   font-size: $size-lar;
-  margin-bottom: $size-xl;
+  margin-bottom: $size-med;
   padding: 2.4rem;
   width: 100%;
 }
@@ -28,4 +28,10 @@
   border: none;
   color: $off-white;
   padding: 0;
+}
+
+@media (min-width: $breakpoint) {
+  .action__big-button {
+    margin-bottom: $size-xl;
+  }
 }
