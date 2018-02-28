@@ -3,5 +3,12 @@
 # dependencies
 /node_modules
 
+# auto generated code
+public/
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
+
 # misc
 .idea/
